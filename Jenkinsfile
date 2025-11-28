@@ -5,7 +5,7 @@ pipeline {
         GenericTrigger(
             genericVariables: [
                 [key: 'ref', value: '$.ref'],
-                [key: 'ref_name', value: '$.ref', regexpFilter: 'refs/heads/']  // 提取分支名
+                [key: 'ref_name', value: '$.ref', regexpFilter: 'refs/heads/'] 
             ],
             genericRequestVariables: [
                 [key: 'url_branch', regexpFilter: '']
