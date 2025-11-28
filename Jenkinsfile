@@ -8,7 +8,7 @@ pipeline {
                 [key: 'ref_name', value: '$.ref', regexpFilter: 'refs/heads/']  // 提取分支名
             ],
             genericRequestVariables: [
-                [key: 'url_branch', regexpFilter: '']  // 从 URL 参数获取
+                [key: 'url_branch', regexpFilter: '']
             ],
             token: 'test-branch-name-token',
             
