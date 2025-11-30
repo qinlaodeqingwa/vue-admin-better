@@ -12,7 +12,6 @@ pipeline {
             ],
             token: 'test-branch-name-token',
             
-            // 🧪 测试方案 1：直接使用 ${BRANCH_NAME}
             regexpFilterText: '$ref',
             regexpFilterExpression: '^refs/heads/${BRANCH_NAME}$',
             
