@@ -55,7 +55,6 @@
           return ''
         },
       },
-      /* 初始选中值name */
       selectedValue: {
         type: String,
         default: () => {
